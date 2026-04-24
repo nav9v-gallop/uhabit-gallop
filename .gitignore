@@ -1,0 +1,69 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+*.plist
+
+# Generated files (drift, freezed, json_serializable)
+# NOTE: We commit generated files for CI reproducibility.
+# If you prefer not to, uncomment:
+# *.g.dart
+# *.freezed.dart
+
+# Secrets / credentials — NEVER commit these
+*.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+secrets/
+credentials/
+
+# Personal Access Tokens — NEVER commit
+**/pat.txt
+**/token.txt
+
+# Coverage
+coverage/
+*.lcov
+
+# Pub
+.pub-cache/
+.pub/
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+
+# Plan artifacts (internal tooling)
+.plan/
